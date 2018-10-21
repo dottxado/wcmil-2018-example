@@ -14,3 +14,5 @@ License: GPL2
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+require_once 'blocks/block-01.php';
