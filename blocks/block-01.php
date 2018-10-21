@@ -28,7 +28,8 @@ function block_01_block_init() {
 			'wp-i18n',
 			'wp-element',
 		),
-		filemtime( "$dir/$index_js" )
+		filemtime( "$dir/$index_js" ),
+		false
 	);
 
 	$editor_css = 'block-01/editor.css';
