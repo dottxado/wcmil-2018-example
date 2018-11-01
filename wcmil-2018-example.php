@@ -18,3 +18,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once 'blocks/block-01.php';
 require_once 'blocks/block-02.php';
 require_once 'blocks/block-03.php';
+require_once 'blocks/block-04.php';

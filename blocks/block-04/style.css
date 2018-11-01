@@ -1,0 +1,16 @@
+/**
+ * The following styles get applied both on the front of your site and in the editor.
+ */
+
+.wp-block-wcmil-2018-example-block-04 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.wp-block-wcmil-2018-example-block-04 p {
+	margin-bottom: 5px;
+}
+
+.wp-block-wcmil-2018-example-block-04 p.bigger {
+	font-size: 2em;
+}
