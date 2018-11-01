@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied inside the editor only.
+ */
+
+.wp-block-wcmil-2018-example-block-02 {
+    border: 1px dotted lightgrey;
+}
+
+.wp-block-wcmil-2018-example-block-02 .image-button:hover {
+    position: relative;
+}
+
+.wp-block-wcmil-2018-example-block-02 .image-button:hover:after {
+    font-family: "Dashicons";
+    content: '\f128';
+    position: absolute;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+    font-size: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.wp-block-wcmil-2018-example-block-02 .container.columns-1 .column,
+.wp-block-wcmil-2018-example-block-02 .container.columns-2 .column,
+.wp-block-wcmil-2018-example-block-02 .container.columns-3 .column,
+.wp-block-wcmil-2018-example-block-02 .container.columns-4 .column,
+.wp-block-wcmil-2018-example-block-02 .container.columns-5 .column,
+.wp-block-wcmil-2018-example-block-02 .container.columns-6 .column {
+    margin: 0 auto;
+    width: 90%;
+}
