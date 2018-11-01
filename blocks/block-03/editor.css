@@ -4,6 +4,7 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.wp-block-wcmil-2018-example-block-03 {
-	border: 1px dotted #f00;
+.wp-block-wcmil-2018-example-block-03 .button {
+	display: block;
+	margin: 0 auto;
 }
