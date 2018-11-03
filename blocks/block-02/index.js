@@ -69,15 +69,6 @@
 				type: 'number',
 				default: 2,
 			},
-			imagesID: {
-				type: 'array',
-			},
-			imagesURL: {
-				type: 'array',
-			},
-			descriptions: {
-				type: 'array',
-			},
 		},
 
 		/**
@@ -94,12 +85,12 @@
 					InspectorControls, {key: 'inspector'},
 					el(
 						PanelBody, {
-							title: 'Informazioni Aggiuntive',
+							title: __('Informazioni Aggiuntive'),
 							initialOpen: true
 						},
 						el(
 							ToggleControl, {
-								label: 'Aggiungi linea di separazione tra titolo e contenuto',
+								label: __('Aggiungi linea di separazione tra titolo e contenuto'),
 								checked: props.attributes.hasSeparator,
 								onChange: function () {
 									props.setAttributes({hasSeparator: !props.attributes.hasSeparator});
@@ -108,7 +99,7 @@
 						),
 						el(
 							RangeControl, {
-								label: 'Quante colonne vuoi mostrare?',
+								label: __('Quante colonne vuoi mostrare?'),
 								initialPosition: props.attributes.numberOfColumns.default,
 								value: props.attributes.numberOfColumns,
 								min: 1,
@@ -130,7 +121,7 @@
 							onChange: function (newValue) {
 								props.setAttributes({title: newValue});
 							},
-							placeholder: 'Inserisci il titolo',
+							placeholder: __('Inserisci il titolo'),
 							keepPlaceholderOnFocus: true,
 							formattingControls: [],
 						}

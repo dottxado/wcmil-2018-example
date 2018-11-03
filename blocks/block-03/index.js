@@ -106,7 +106,7 @@
 						onChange: function (newValue) {
 							props.setAttributes({description: newValue});
 						},
-						placeholder: 'Inserisci la descrizione',
+						placeholder: __('Inserisci la descrizione'),
 						keepPlaceholderOnFocus: true,
 						formattingControls: [],
 					}

@@ -63,12 +63,12 @@
 					InspectorControls, {key: 'inspector'},
 					el(
 						PanelBody, {
-							title: 'Informazioni Aggiuntive',
+							title: __('Informazioni Aggiuntive'),
 							initialOpen: true
 						},
 						el(
 							RangeControl, {
-								label: 'Numero minimo di utenti',
+								label: __('Numero minimo di utenti'),
 								initialPosition: props.attributes.min.default,
 								value: props.attributes.min,
 								min: 2,
@@ -80,7 +80,7 @@
 						),
 						el(
 							RangeControl, {
-								label: 'Numero massimo di utenti',
+								label: __('Numero massimo di utenti'),
 								initialPosition: props.attributes.max.default,
 								value: props.attributes.max,
 								min: 2,
