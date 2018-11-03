@@ -132,7 +132,7 @@
 						src: props.attributes.url,
 					}
 				),
-				el(
+				props.attributes.description.length > 0 && el(
 					RichText.Content, {
 						tagName: 'p',
 						value: props.attributes.description,
