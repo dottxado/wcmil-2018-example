@@ -55,7 +55,7 @@
 		 * @see https://wordpress.org/gutenberg/handbook/block-edit-save/#edit
 		 *
 		 * @param {Object} [props] Properties passed from the editor.
-		 * @return {Element}       Element to render.
+		 * @return array {Element}       Element to render.
 		 */
 		edit: function( props ) {
 			return [
