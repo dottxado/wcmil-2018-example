@@ -108,7 +108,6 @@
 						},
 						placeholder: __('Inserisci la descrizione'),
 						keepPlaceholderOnFocus: true,
-						formattingControls: [],
 					}
 				),
 			);
