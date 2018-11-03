@@ -6,22 +6,3 @@
     display: flex;
     align-items: stretch;
 }
-
-.wp-block-wcmil-2018-example-block-02 .container.columns-1 .column {
-    width: 100%;
-}
-.wp-block-wcmil-2018-example-block-02 .container.columns-2 .column {
-    width: 50%;
-}
-.wp-block-wcmil-2018-example-block-02 .container.columns-3 .column {
-    width: 33%;
-}
-.wp-block-wcmil-2018-example-block-02 .container.columns-4 .column {
-    width: 25%;
-}
-.wp-block-wcmil-2018-example-block-02 .container.columns-5 .column {
-    width: 20%;
-}
-.wp-block-wcmil-2018-example-block-02 .container.columns-6 .column {
-    width: 16.6%;
-}

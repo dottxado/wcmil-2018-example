@@ -26,13 +26,6 @@
     right: 0;
     background-color: rgba(0, 0, 0, 0.4);
 }
-
-.wp-block-wcmil-2018-example-block-02 .container.columns-1 .column,
-.wp-block-wcmil-2018-example-block-02 .container.columns-2 .column,
-.wp-block-wcmil-2018-example-block-02 .container.columns-3 .column,
-.wp-block-wcmil-2018-example-block-02 .container.columns-4 .column,
-.wp-block-wcmil-2018-example-block-02 .container.columns-5 .column,
-.wp-block-wcmil-2018-example-block-02 .container.columns-6 .column {
-    margin: 0 auto;
-    width: 90%;
+.wp-block-wcmil-2018-example-block-02 .editor-block-list__layout {
+    display: flex;
 }

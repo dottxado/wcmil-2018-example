@@ -77,7 +77,7 @@
 			return el(
 				'div',
 				{
-					className: 'column'
+					className: [props.className, 'column'].join(' ')
 				},
 				el(
 					MediaUpload, {
