@@ -48,10 +48,14 @@ function block_03_block_init() {
 		filemtime( "$dir/$style_css" )
 	);
 
-	register_block_type( 'wcmil-2018-example/block-03', array(
-		'editor_script' => 'block-03-block-editor',
-		'editor_style'  => 'block-03-block-editor',
-		'style'         => 'block-03-block',
-	) );
+	register_block_type(
+		'wcmil-2018-example/block-03',
+		array(
+			'editor_script' => 'block-03-block-editor',
+			'editor_style'  => 'block-03-block-editor',
+			'style'         => 'block-03-block',
+		)
+	);
 }
+
 add_action( 'init', 'block_03_block_init' );
